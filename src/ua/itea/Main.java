@@ -53,7 +53,6 @@ public class Main extends Application {
     		}
             
             MyController controller = loader.getController();
-            //controller.initData();
             controller.setLogger(logger);
             
             Pane browser = controller.getPnlBrowser();            

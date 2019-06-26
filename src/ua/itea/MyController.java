@@ -59,13 +59,6 @@ public class MyController{
         currentLocale=new Locale("ua","UA");
         changeLang();
     }
-    
-	/**
-	 * Инициализация
-	 */
-	public void initData() {
-		//System.out.print("my init");		
-	}
 	
 	public void setLogger(Logger logger) {
 		this.logger = logger;		
