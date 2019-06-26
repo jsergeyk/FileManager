@@ -133,6 +133,7 @@ public class Main extends Application {
 	/**
 	 * Создать каталог
 	 * @param isDirectory true - каталог, false -файл
+	 * @param count Порядковый № каталога/файла (Новая папка (2))
 	 */
 	private void create(boolean isDirectory, int count) {
 		if (parentFile != null) {
