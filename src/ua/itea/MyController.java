@@ -60,12 +60,17 @@ public class MyController{
         changeLang();
     }
 	
+    /*
+     * Установить логгер
+     * @param logger 
+     */
 	public void setLogger(Logger logger) {
 		this.logger = logger;		
 	}
 	
 	/**
 	 * @return the pnlBrowser
+	 * Получить панель для файлового менеджера
 	 */
 	public Pane getPnlBrowser() {
 		return pnlBrowser;
