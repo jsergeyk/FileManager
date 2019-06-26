@@ -78,6 +78,9 @@ public class MyController{
 		return pnlBrowser;
 	}
 	
+	/*
+	 * Изменение языка
+	 */
 	private void changeLang() {		
 		ResourceBundle messages = ResourceBundle.getBundle("Bundle",currentLocale);
 		System.out.println(pnlBrowser == null);
