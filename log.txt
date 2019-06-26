@@ -1,0 +1,10 @@
+июн 27, 2019 1:55:41 AM ua.itea.Main openFolder
+INFO: Открытие каталога: D:\
+июн 27, 2019 1:55:42 AM ua.itea.Main openFolder
+INFO: Открытие каталога: D:\ALINA
+июн 27, 2019 1:55:44 AM ua.itea.Main create
+INFO: Создан файл D:\ALINA\Новый текстовый документ.txt
+июн 27, 2019 1:55:45 AM ua.itea.Main create
+INFO: Создан каталог D:\ALINA\Новая папка (3)
+июн 27, 2019 1:55:45 AM ua.itea.Main create
+INFO: Создан файл D:\ALINA\Новый текстовый документ (2).txt
