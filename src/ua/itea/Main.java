@@ -72,6 +72,7 @@ public class Main extends Application {
         		itemCreateDir.setAccelerator(new KeyCodeCombination(KeyCode.INSERT));
         		itemCreateDir.setOnAction((e) -> create(true, 1));
         		MenuItem itemCreateFile = new MenuItem("Τΰιλ");
+        		itemCreateFile.setAccelerator(new KeyCodeCombination(KeyCode.INSERT, KeyCombination.CONTROL_DOWN));
         		itemCreateFile.setOnAction((e) -> create(false, 1));
         		itemCreate.getItems().addAll(itemCreateDir, itemCreateFile);
         	
