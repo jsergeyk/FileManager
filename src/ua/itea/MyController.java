@@ -66,11 +66,16 @@ public class MyController{
 		//System.out.print("my init");		
 	}
 	
+	/*
+	 * Установить логгер
+	 * @param logger логгер
+	 */
 	public void setLogger(Logger logger) {
 		this.logger = logger;		
 	}
 	
 	/**
+	 * Получить панель для файлового менеджера
 	 * @return the pnlBrowser
 	 */
 	public Pane getPnlBrowser() {
